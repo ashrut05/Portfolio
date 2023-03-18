@@ -3,10 +3,13 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
-import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import node from "../assets/node.png";
+import bootstrap from "../assets/bootstrap.png";
+import php from "../assets/php.png";
+import angular from "../assets/angular.png";
+import mongodb from "../assets/mongodb.png";
+
 
 const Experience = () => {
 
@@ -43,21 +46,33 @@ const Experience = () => {
         },
         {
             id: 6,
-            src: nextjs,
-            title: 'Next JS',
-            style: 'shadow-white'
+            src: node,
+            title: 'Node JS',
+            style: 'shadow-green-500'
         },
         {
             id: 7,
-            src: graphql,
-            title: 'GraphQL',
-            style: 'shadow-pink-400'
+            src: bootstrap,
+            title: 'Bootstrap',
+            style: 'shadow-purple-400'
         },
         {
             id: 8,
-            src: github,
-            title: 'GitHub',
-            style: 'shadow-gray-400'
+            src: mongodb,
+            title: 'MongoDB',
+            style: 'shadow-green-600'
+        },
+        {
+            id: 9,
+            src: php,
+            title: 'PHP',
+            style: 'shadow-cyan-400'
+        },
+        {
+            id: 10,
+            src: angular,
+            title: 'Angular',
+            style: 'shadow-red-600'
         },
     ]
   return (
@@ -66,7 +81,7 @@ const Experience = () => {
         <div className='max-w-screen-lg  mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
             <div>
                 <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>Experience</p>
-                <p className='py-6'>These are the technologies I've worked with</p>
+                <p className='py-6'>These are some of the technologies I've worked with</p>
             </div>
 
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>

@@ -1,37 +1,50 @@
 import React from 'react';
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg';
-import installNode from '../assets/portfolio/installNode.jpg';
-import navbar from '../assets/portfolio/navbar.jpg';
-import reactParallax from '../assets/portfolio/reactParallax.jpg';
-import reactSmooth from '../assets/portfolio/reactSmooth.jpg';
-import reactWeather from '../assets/portfolio/reactWeather.jpg';
+import portfolio from '../assets/portfolio/portfolio.jpg';
+import universityWebsite from '../assets/portfolio/universityWebsite.jpg';
+import myRecipes from '../assets/portfolio/myRecipes.jpg';
+import weatherApp from '../assets/portfolio/weatherApp.jpg';
+import viewProperty from '../assets/portfolio/viewProperty.jpg';
+import restaurantCuisine from '../assets/portfolio/restaurantCuisine.jpg';
 
 const Portfolio = () => {
 
     const portfolios = [
         {
             id:1,
-            src:arrayDestruct
+            src:portfolio,
+            codeLink:"https://github.com/ashrut05/Portfolio",
+            demoLink: "https://ashrut.netlify.app/"
         },
         {
             id:2,
-            src:installNode
+            src:universityWebsite,
+            codeLink:"https://github.com/ashrut05/University-Website",
+            demoLink:"https://ashrut05.github.io/University-Website/HTML/index.html"
         },
         {
             id:3,
-            src:navbar
+            src:myRecipes,
+            codeLink:"https://github.com/ashrut05/My-Recipes",
+            demoLink:"https://main--peppy-dango-32a513.netlify.app/"
         },
         {
             id:4,
-            src:reactParallax
+            src:weatherApp,
+            codeLink: "https://github.com/ashrut05/weather-app",
+            demoLink:"https://ashrut05.github.io/weather-app/"
         },
         {
             id:5,
-            src:reactSmooth
+            src:viewProperty,
+            codeLink: "https://github.com/ashrut05/View-Property-App",
+            demoLink: "https://github.com/ashrut05/View-Property-App"
+
         },
         {
             id:6,
-            src:reactWeather
+            src:restaurantCuisine,
+            codeLink: "https://github.com/ashrut05/Cuisine-Restaurant-App",
+            demoLink: "https://github.com/ashrut05/Cuisine-Restaurant-App"
         }
     ]
   return <div name="portfolio" className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen">
@@ -42,18 +55,22 @@ const Portfolio = () => {
       </div>
       <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
       {
-        portfolios.map(({id, src}) => (
+        portfolios.map(({id, src, codeLink, demoLink}) => (
             <div  key={id} className='shadow-md shadow-gray-600 rounded-lg'>
-              <img src={src} alt="" className="rounded-md duration-200 hover:scale-105"/>
+              <a href={demoLink}  target='_blank' rel="noreferrer">
+              <img src={src} 
+              alt=""
+              className="rounded-md duration-200 hover:scale-105 cursor-pointer"/>
+              </a>
                 <div className='flex items-center justify-center'>
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Demo</button>
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Code</button>
+                  <a href={codeLink}  target='_blank' rel="noreferrer">
+                    <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Code</button>
+                  </a>
                 </div>
               </div>
-
         ))
       }
-                  </div>
+      </div>
     </div>
   </div>;
 }
