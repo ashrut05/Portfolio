@@ -15,7 +15,7 @@ const About = () => {
             <br/>
             
             <p className='text-xl'>
-            Throughout my studies in Computer Science, I developed a deep understanding of HTML, CSS, JavaScript in an Agile environment,and I completed several projects that involved designing and creating visually stunning and user-friendly websites.These experiences ignited my passion for web designing and pushed me to pursue a career in this field. I am also dedicated to staying up to date with the latest technologies and best practices in web development, and I am always looking for opportunities to learn and improve. I would be happy to provide you with references who could vouch for my abilities in an industrial environment.</p>
+            Throughout my studies in Computer Science, I developed a deep understanding of HTML, CSS, JavaScript in an Agile environment,and I completed several projects that involved designing and creating visually stunning and user-friendly websites. These experiences ignited my passion for web designing and pushed me to pursue a career in this field. I am also dedicated to staying up to date with the latest technologies and best practices in web development, and I am always looking for opportunities to learn and improve. I would be happy to provide you with references who could vouch for my abilities in an industrial environment.</p>
 
             <br/>
 
