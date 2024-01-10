@@ -1,10 +1,10 @@
 import React from 'react';
 import portfolio from '../assets/portfolio/portfolio.jpg';
-import universityWebsite from '../assets/portfolio/universityWebsite.jpg';
+import dalle from '../assets/portfolio/dalle.jpg';
+import universityWebsite from '../assets/portfolio/universityWebsite.jpg'
 import myRecipes from '../assets/portfolio/myRecipes.jpg';
-import weatherApp from '../assets/portfolio/weatherApp.jpg';
-import viewProperty from '../assets/portfolio/viewProperty.jpg';
-import restaurantCuisine from '../assets/portfolio/restaurantCuisine.jpg';
+import metaverse from '../assets/portfolio/metaverse.jpg';
+import restaurantCuisine from '../assets/portfolio/restaurantCuisine.jpg'
 
 const Portfolio = () => {
 
@@ -17,27 +17,27 @@ const Portfolio = () => {
         },
         {
             id:2,
+            src:dalle,
+            codeLink:"https://github.com/ashrut05/DallE-clone",
+            demoLink:"https://dall-e-ash.netlify.app/"
+        },
+        {
+            id:3,
+            src:metaverse,
+            codeLink:"https://github.com/ashrut05/metaverse",
+            demoLink:"https://ashmeta.netlify.app/"
+        },
+        {
+            id:4,
             src:universityWebsite,
             codeLink:"https://github.com/ashrut05/University-Website",
             demoLink:"https://ashrut05.github.io/University-Website/HTML/index.html"
         },
         {
-            id:3,
-            src:myRecipes,
-            codeLink:"https://github.com/ashrut05/My-Recipes",
-            demoLink:"https://main--peppy-dango-32a513.netlify.app/"
-        },
-        {
-            id:4,
-            src:weatherApp,
-            codeLink: "https://github.com/ashrut05/weather-app",
-            demoLink:"https://ashrut05.github.io/weather-app/"
-        },
-        {
             id:5,
-            src:viewProperty,
-            codeLink: "https://github.com/ashrut05/View-Property-App",
-            demoLink: "https://github.com/ashrut05/View-Property-App"
+            src:myRecipes,
+            codeLink: "https://github.com/ashrut05/My-Recipes",
+            demoLink: "https://main--peppy-dango-32a513.netlify.app/"
 
         },
         {
