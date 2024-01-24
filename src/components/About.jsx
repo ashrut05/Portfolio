@@ -9,17 +9,30 @@ const About = () => {
             </div>
 
             <p className='text-xl mt-20'>
-            Hi! I am Ash, a recent graduate from Centennial College, who has completed an Advanced Diploma in Software Engineering Technology. I also have previous Co-op experiences as well as a Bachelor of Computer Applications degree.
+            Hi! I am Ash, a highly motivated recent post-graduate from Centennial College, specializing in Software Engineering Technology. With a strong academic background and over 9 years of programming experience, I am actively seeking new opportunities in the IT industry.
             </p>
 
             <br/>
             
             <p className='text-xl'>
-            Throughout my studies in Computer Science, I developed a deep understanding of HTML, CSS, JavaScript in an Agile environment,and I completed several projects that involved designing and creating visually stunning and user-friendly websites. These experiences ignited my passion for web designing and pushed me to pursue a career in this field. I am also dedicated to staying up to date with the latest technologies and best practices in web development, and I am always looking for opportunities to learn and improve. I would be happy to provide you with references who could vouch for my abilities in an industrial environment.</p>
+            My journey in Computer Science has been filled with exciting challenges and rewarding experiences. During my time at Centennial College, I honed my skills in HTML, CSS, and JavaScript within an Agile environment, successfully completing numerous projects that showcased visually stunning and user-friendly websites. These experiences ignited my passion for web development and instilled in me the drive to pursue a career in this dynamic field.</p>
 
             <br/>
 
-            <p className='text-xl'>As a self-starter and a quick learner, I am committed to developing my skills in a professional setting. I am excited to work with a team who can help me grow in my career and contribute to the success of the company.</p>
+            <p className='text-xl'>
+              I possess a comprehensive understanding of various technologies and languages such as JavaScript, HTML5, CSS3, Node.js, React, Angular, jQuery, PHP, Bootstrap, Tailwind CSS, MySQL, MongoDB, Android Studio, figma, JIRA, GitHub, Bitbucket, Java, XML, XHTML, C, C++, C#, Python, lodash, tabulator, Postgres, Git, APIs, CMS, Adobe XD, Adobe Photoshop, and Adobe Premiere Pro. Alongside my coding expertise, I also have a flair for designing UIs and creating wireframes.</p>
+
+              <br/>
+
+              <p className='text-xl'>
+              As a self-starter and a quick learner, I am dedicated to staying at the forefront of the latest technologies and best practices in web development. I actively seek opportunities to expand my knowledge and skill set. With a Bachelor's degree in Computer Applications and hands-on Co-op experience, I am confident in my ability to contribute effectively to any IT team.
+              </p>
+
+              <br/>
+
+              <p className='text-xl'>
+              I am excited to collaborate with a team that shares my passion for innovation and growth. I believe that a collaborative and nurturing environment is crucial for my professional development, and I am eager to contribute to the success of a forward-thinking company.
+              </p>
         </div>
     </div>
   )
